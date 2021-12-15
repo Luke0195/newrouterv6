@@ -13,6 +13,9 @@ export default function Routes(){
         <Route path="password" element ={
             <h1> Change Password</h1>
         }/>
+          <Route path="purchase" element ={
+            <h1> Compras</h1>
+        }/>
 
       </Route>
       <Route path="*" element={<h1> Not found :{'('}</h1>}/>
