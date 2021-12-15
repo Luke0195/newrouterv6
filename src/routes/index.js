@@ -9,6 +9,7 @@ export default function Routes(){
     <Switch>
       <Route path="/" element={<Dashboard/>}/>
       <Route path="/profile/:id" element={<Profile/>}/>
+      <Route path="*" element={<h1> Not found :{'('}</h1>}/>
 
     </Switch>
   )
