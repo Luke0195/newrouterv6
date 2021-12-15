@@ -1,5 +1,5 @@
 import React from 'react';
-import {useParams, useNavigate} from 'react-router-dom'
+import {useParams, useNavigate, Outlet} from 'react-router-dom'
 
 export function Profile(){
   const { id } = useParams()
@@ -11,6 +11,7 @@ export function Profile(){
     <>
       <h1> Profiles {id}</h1>
       <button onClick={handleNavigate}> Move to Dashboard</button>
+      <Outlet/>
     </>
   )
 }
