@@ -13,5 +13,5 @@ export function Profile(){
       <button onClick={handleNavigate}> Move to Dashboard</button>
       <Outlet/>
     </>
-  )
+  ) 
 }
